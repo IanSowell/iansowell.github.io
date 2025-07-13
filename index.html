@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Dev Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎮 My Game Development Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome!</h2>
+        <p><span id="typewriter">I'm a passionate game developer who loves to create satisfying gameplay experiences. Scroll down to see my work!</span></p>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+            <a href="https://play.unity.com/en/games/162dae9c-34d0-436d-9c98-ba0ddac8871f/alien-video-game-shop-unity-learn-creative-core" target="_blank" class="card-link">
+                <h3>Alien Video Game Store</h3>
+                <img src="feature_game_one.png" alt="[Alien Store Screenshot]">
+                <p>Game Main Menu Concept<br><span class="engine-note"><span style= "-webkit-text-stroke: 1px #333333; color: #512bd4">Unity</span> and <span style= "color: #512bd4">C#</span></span></p>
+                </a>
+            </div>
+            <div class="project-card">
+            <a href="https://play.unity.com/en/games/e98864aa-bf81-45d1-9ee0-e9b7855bccd1/the-lonely-forest" target="_blank" class="card-link">
+                <h3>The Lonely Forest</h3>
+                <img src="feature_game_two.png" alt="[Pixel Farm Screenshot]">
+                <p>
+    Atmospheric 2D Adventure Game<br>
+    <span class="engine-note"><span style= "-webkit-text-stroke: 1px #333333; color: #512bd4">Unity</span> and <span style= "color: #512bd4">C#</span></span>
+  </p>
+                </a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Ian, a developer with a love for satisfying gameplay. I specialize in Unity 3D projects.</p>
+    </section>
+
+<hr class="section-divider">
+<div class="section-divider-with-text"><span>Let's Connect</span></div>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form" action="https://formspree.io/f/xkgzwgyz" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required maxlength="25">
+            <input type="email" name="email" placeholder="Your Email" required maxlength="254">
+            <textarea name="mesage" placeholder="Your Message" required maxlength="300"></textarea>
+            <input type="hidden" name="_subject" value="Website Inquiry">
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ian All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
